@@ -1,9 +1,43 @@
 body {
-	background-color:#7FFF00;
+	background-color:#ffffff;
 	font-family: 'Lato', sans-serif;
-	color:#291f1a
+	color:#291f1a;
+}
+
+/* Main menu styles*/
+
+#main-nav {
+	position: fixed;
+	right: 0;
+	background-color: #fff;
+	top:0;
+	width:100%;
+	z-index: 2;
+}
+
+#main-nav > ul {
+	float:right;
+	margin:0;
+}
+
+#main-nav>ul>li {
+	display: inline-block;
+	list-style: none;
+	padding: 20px 40px;
+	
+}
+
+#main-nav>ul>li>a {
+	text-decoration: none;
+	color: #1ac056;
+	font-weight: 300;
+}
+
+#main-nav>ul>li>a:hover {
+	color: #291f1a;
 }
 
 #header {
 	font-family: 'Roboto', sans-serif;
+	position: fixed;
 }
