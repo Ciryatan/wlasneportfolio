@@ -1,7 +1,36 @@
+/* General styles */
+
+* {
+	box-sizing: border-box;
+}
+
+
 body {
 	background-color:#ffffff;
 	font-family: 'Lato', sans-serif;
 	color:#291f1a;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+span {
+	color: #1ac056;
+	font-weight: 400;
+}
+
+section {
+	padding: 0 80px 100px;
+	width:100%;
+}
+
+section h2 {
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 60px;
+	margin-bottom: 35px;
 }
 
 /* Main menu styles*/
@@ -37,7 +66,59 @@ body {
 	color: #291f1a;
 }
 
-#header {
+/* Header styles */
+
+#main-header {
+	background-image: url(../img/header-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:white;
+}
+
+#main-header .main-header-content {
+	padding: 30vh;
+	text-align: center;
+}
+
+#main-header .main-header-content h1{
 	font-family: 'Roboto', sans-serif;
-	position: fixed;
+	font-size: 4em;
+	font-weight: 200;
+}
+
+#main-header .main-header-content h2{
+	font-weight: 200;
+}
+
+/* Section about styles */
+
+#about {
+	padding: 0 80px 100px;
+	background-color: #f9fcfe;
+	overflow: hidden;
+}
+
+#about figure {
+	width: 50%;
+	float:left;
+	margin: 0;
+	text-align: center;
+}
+
+#about figure img {
+	
+	max-height: 350px;
+	border: 14px #fff solid;
+	border-radius: 15px;
+	max-width: 100%;
+}
+
+#about article {
+	float: left;
+	width: 50%;
+}
+
+#about article p {
+	font-weight: 300;
 }
