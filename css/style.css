@@ -33,6 +33,11 @@ section h2 {
 	margin-bottom: 35px;
 }
 
+p {
+	font-weight: 300;
+	line-height: 25px;
+}
+
 /* Main menu styles*/
 
 #main-nav {
@@ -119,6 +124,65 @@ section h2 {
 	width: 50%;
 }
 
-#about article p {
-	font-weight: 300;
+/* Section about skills */
+
+#skill p {
+	text-align: center;
+}
+
+#skills-icons {
+	text-align: center;
+}
+
+#skills-icons>figure {
+	text-align: center;
+	display: inline-block;
+}
+
+#skills-icons>figure>img {
+	margin-bottom: 15px;
+}
+
+/* Section about contact */
+
+#contact {
+	background-color: #213b50;
+	overflow: hidden;
+}
+#contact h2 {
+	text-align: left;
+	margin: 15px;
+	margin-top: 15px;
+	color: white
+}
+
+#contact>#contact>address {
+	color: white;
+}
+
+#contact>#contact {
+	float: left;
+	width: 50%;
+}
+
+#contact>#contact>i {
+	color:white;
+	
+}
+
+#contact>#form input {
+	background-color: green;
+	border: 0;
+}
+
+#contact>#form textarea {
+	background-color: green;
+	border: 0;
+}
+
+
+#contact>#form>input>#submit {
+	background-color: green;
+	color: white;
+	text-align: right;
 }
